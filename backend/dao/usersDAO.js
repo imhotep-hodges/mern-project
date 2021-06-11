@@ -10,7 +10,7 @@ export default class usersDAO {
         return
       }
       try {
-        grades = await conn.db(process.env.MONGO_NS).collection("grades")
+        grades = await conn.db(process.env.TRAINING_NS).collection("grades")
       } catch (e) {
         console.error(
           `Unable to establish a collection handle in usersDAO: ${e}`,
