@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home {
+  background-color: white;
+  color: black;
+}
+
+
+
+/* --- Questions --- */
+
+.ques {
+  background-color: white;
+  color: black;
+}
+
+#error {
+  color: red;
+}
+
+.answerall {
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.answer {
+  background-color: black;
+  color: red;
+  width: 40%;
+  padding: 5px;
+  text-align: center;
+ 
+}
+
+.answer.selected {
+  color: black;
+  background-color: red;
+  
+
+}
+
+.answer:hover {
+  color: black;
+  background-color: red;
+  border: 10px 5px 5px 5px;
+  border-color: black;
+}
+
+span, .correct {
+  color: blue;
+}
+
+span, .fail {
+  color: red;
+}
+
+/* ---- SidebarNav --- */
+
+.wrapper {
+  display: flex;
+  position: absolute;
+  float: right;
+  width: 250px;
+  height: 100%;
+  background-color: black;
+  
+  
+}
+
+
+.nav-links {
+  color: #c21414;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+
+}
+
+.navBrand {
+  margin: 10px 30px 20px 20px;
+  font-family: 'Fugaz One', cursive;
+  
+  
+}
+
+.navBrand {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.navbtn {
+  background-color: red;
+  margin: 20px;
+  padding: 20px;
+}
